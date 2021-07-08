@@ -1,0 +1,439 @@
+
+.componentBoxSizing {
+  height: 561px;
+  margin-top: 50px;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.07);
+}
+.componentBoxSizingStep10 {
+  height: 700px;
+  margin-top: 50px;
+
+  border: 1px solid #e5e5e5;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.07);
+}
+.componentBoxSizingStep5 {
+  height: 561px;
+  margin-top: 50px;
+
+  border: 1px solid #e5e5e5;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.07);
+}
+
+.buttons {
+  width: 112px;
+  height: 32px;
+
+  background: #fcfcff;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.buttonsText {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.buttonsFocus:focus {
+  background: #488bff;
+  border: 1px solid #488bff;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.buttonsFocus:focus .buttonsTextFocus {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+
+  color: #ffffff;
+}
+.buttonsFocus:focus .buttonsTextFocusStep3 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #ffffff;
+}
+
+.step3buttons {
+  width: 136px;
+  height: 73px;
+
+  background: #fcfcff;
+  border: 1px solid #ededed;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+
+.step3buttonsText {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #000000;
+}
+.step3buttonsText16 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #000000;
+}
+.step7buttonsText{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 13px;
+
+  color: #000000;
+}
+.step2heading {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+
+  color: #488bff;
+}
+.step2Text {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+
+  color: #000000;
+}
+.step2MenuBtn {
+  background: #fcfcff;
+  border: 1px solid #e1dcdc;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+
+  color: #b1b1b1;
+}
+.dropdownBtn {
+  background: #488bff;
+  border: 1px solid #488bff;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+
+  color: #ffffff;
+}
+.step3dropdownBtn {
+  background: #488bff;
+  border: 1px solid #488bff;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+}
+.step4BtnDiv{
+  width: 189px;
+  height: 45px;
+
+  background: #FCFCFF;
+  border: 1px solid #DEDADA;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.step5BtnDiv{
+  width: 202px;
+  height: 127px;
+  
+  background: #FCFCFF;
+  border: 1px solid #DCDCDC;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+.step5buttonsText{
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #000000;
+
+}
+.step5buttonsTextDel{
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+
+}
+.step5DelBtn{
+  width: 330px;
+  height: 56px;
+
+  background: #FCFCFF;
+  border: 1px solid #E7E7E7;
+  box-sizing: border-box;
+}
+.step6text{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #777777;
+}
+.step6BtnDiv{
+  width: 236px;
+  height: 45px;
+  
+  background: #FCFCFF;
+  border: 1px solid #E4E4E4;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.step6BtnFocus{
+  width: 97px;
+  height: 31px;
+
+  background: #488BFF;
+  border-radius: 5px;
+}
+.step6Btn{
+  width: 97px;
+  height: 31px;
+
+  background: #FCFCFF;
+  border-radius: 5px;
+}
+ .step6BtnTextfocus{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: white;
+}
+.step6BtnText{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #EDEDED;
+}
+.checkBoxText{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+
+}
+.step6DropdownDiv{
+  width: 241px;
+  height: 52px;
+
+  background: #FCFCFF;
+  border: 1px solid #E1DCDC;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.step6DropdownDivText{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  
+  color: #B1B1B1;
+}
+.inputTextBox{
+  width: 241px;
+  height: 52px;
+  background: #FCFCFF;
+  border: 1px solid #E1DCDC;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.inputBoxText{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}
+.step9text{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}
+.step9Div{
+  width: 300px;
+  height: 50px;
+
+  background: #FCFCFF;
+  border: 1px solid #DEDADA;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.step10AddressDiv{
+  width: 100%;
+  height: 50px;
+
+  background: #FCFCFF;
+  border: 1px solid #DEDADA;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.step10textDiv{
+  width: 300px;
+}
+.step9inputText{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}
+.step10Paragraph{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #B7AFAF;
+
+}
+.step10Btn{
+  width: 288px;
+  height: 62px;
+  left: 581px;
+  top: 894px;
+
+  background: #488BFF;
+  border-radius: 5px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+
+
+  color: #FFFFFF;
+
+}
+.step10AddressTextDiv{
+
+}
+.step11Text{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 54px;
+
+  color: #000000;
+}
+.step11marginTop{
+  margin-top: 11%;
+
+}
+@media (max-width: 768px) {
+  .step2Text {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .componentBoxSizingStep5{
+    height: auto !important;
+    margin-top: 20px;
+    
+  }
+  .componentBoxSizing {
+    height: 530px !important;
+    margin-top: 20px;
+  }
+  .step3buttonsText16 {
+    font-size: 13px;
+    line-height: 12px;
+  }
+  .step3buttons {
+    height: 78px;
+  }
+  .buttonsFocus:focus .buttonsTextFocusStep3 {
+    font-size: 13px;
+    line-height: 13px;
+  }
+  .step7buttonsText{
+    font-size: 13px;
+    line-height: 13px;
+  }
+  .step4BtnDiv{
+    height: 60px;
+  }  
+  .componentBoxSizingStep10 {
+    height: 920px;
+    margin-top: 20px;
+  }
+  .step10AddressDiv{
+    width: 300px;
+  }
+  .step10AddressTextDiv{
+    width: 300px;
+  }
+  .step11Text{
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .step5DelBtn{
+    width: 80%;
+  }
+  .step11marginTop{
+    margin-top: 20%;
+  }
+  
+} 

@@ -1,6 +1,5 @@
 import React from 'react'
 import { Switch , Route } from 'react-router-dom'
-
 import StepPage from './Components/StepPage'
 
 const App = () => {
@@ -17,3 +16,4 @@ const App = () => {
 }
 
 export default App;
+

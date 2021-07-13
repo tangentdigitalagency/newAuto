@@ -35,7 +35,7 @@ function Step3() {
           <button onClick={showStep4} className="flex step6BtnFocus  step6BtnTextfocus justify-center text-center items-center focus:outline-none">Next</button>
         </div>
       </div>
-
+      <br className="hidden md:block" />
     </>
 
 

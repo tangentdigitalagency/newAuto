@@ -113,8 +113,7 @@ function Step2() {
 
         </div>
       </div>
-
-
+      <br className="hidden md:block" />
     </>
   )
 }

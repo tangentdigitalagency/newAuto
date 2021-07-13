@@ -45,6 +45,7 @@ function Step5() {
           <button onClick={showStep6} className="flex step10Btn justify-center text-center items-center focus:outline-none mt-6">Next</button>
         </div>
       </div>
+      <br className="hidden md:block" />
     </>
   )
 }

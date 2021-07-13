@@ -1,11 +1,10 @@
 
 import './allSteps.css'
-import React, { useState, useEffect, useContext } from 'react'
-import Step7 from '../StepsComponent/step7'
+import React, { useContext } from 'react'
 import { Fragment } from 'react'
 import { Menu, Transition } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/solid'
-import Step from "../step.jsx"
+import Step from "./step.jsx"
 import { QuoteContextApi } from "../../QuoteContext";
 import CheckSquare from '../Images/LandingPage/check-square.png'
 import { useHistory } from "react-router-dom";
@@ -16,21 +15,9 @@ function classNames(...classes) {
 
 
 function Step2() {
-  const [flag, setFlag] = useState(true)
-  var [focusBtnOwner, setFocusBtnOwner] = useState(true)
-  const [focusBtnMarried, setFocusBtnMarried] = useState(true)
   const QuoteContext1 = useContext(QuoteContextApi);
 
-  const showFocusBtn1 = (rY) => {
 
-    setFocusBtnOwner(rY)
-
-  }
-  const showFocusBtn2 = (cY) => {
-
-    setFocusBtnMarried(cY)
-
-  }
   const history = useHistory();
 
   function showStep3() {
@@ -125,18 +112,10 @@ function Step2() {
           </Menu>
 
         </div>
-
-
       </div>
 
 
-      <br />
-      <br />
-      <br />
-
     </>
-
-
   )
 }
 

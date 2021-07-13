@@ -1,0 +1,70 @@
+.bgclr {
+	background-color: #488bff;
+}
+
+.progressButton {
+	max-width: 80%;
+	margin: auto auto;
+}
+
+.divFont {
+	font-family: Lato;
+	font-style: normal;
+	font-size: 20px;
+	line-height: 24px;
+	color: #ffffff;
+}
+.bgclrFocus {
+	background-color: #ffffff;
+}
+.divFontFocus {
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 26px;
+
+	color: #488bff;
+}
+.margin {
+	margin-top: 8%;
+}
+.progressBar {
+	height: 10px;
+
+	background: linear-gradient(0deg, #e5e5e5, #e5e5e5), #e4e4e4;
+}
+.progressBar2 {
+	background: linear-gradient(0deg, #488bff, #488bff), #e4e4e4;
+}
+
+.backImage {
+	z-index: -1;
+}
+@media (max-width: 768px) {
+	.divFont {
+		font-family: Lato;
+		font-style: normal;
+		font-size: 15px;
+		line-height: 16px;
+		color: #ffffff;
+	}
+	.divFontFocus {
+		font-family: Lato;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 17px;
+
+		color: #488bff;
+		box-sizing: border-box;
+		border: 1px solid #e5e5e5;
+		box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.07);
+	}
+	.margin {
+		margin-top: 20%;
+	}
+	.progressButton {
+		max-width: 91.666667%;
+	}
+}

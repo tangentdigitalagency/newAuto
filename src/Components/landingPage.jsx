@@ -21,7 +21,7 @@ import LandingPic from './Images/LandingPage/landingPic.png'
 import LandingPageHeader from './landingPageHeader'
 
 function LandingPage() {
-  return ( 
+  return (
     <div><LandingPageHeader />
       <div className=' container3 w-auto h-auto text-center'>
         <div className=' mx-auto text-center flex flex-row items-center justify-center'>
@@ -33,7 +33,7 @@ function LandingPage() {
         <div className='landingBackImage w-full flex flex-col relative'>
           <div className='mx-auto text-center flex flex-row items-start justify-start'>
             <h2 className='lPText mt-5 px-8 md:px-0'>
-              Discover insurance offers that compete for you
+              Discover insurance offers that complete for you
             </h2>
           </div>
 
@@ -300,7 +300,7 @@ function LandingPage() {
             </div>
           </div>
         </div>
-        
+
         <div className='hidden md:block pt-36'>
           <div className='flex flex-col items-center text-center w-4/5 bg-white mx-auto box-border rounded-2xl startQuote pt-16'>
             <h1 className='quantPageHText'>Start Your Free Quote!</h1>

@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,700&display=swap');
+
 .componentBoxSizing {
-	height: 561px;
+	height: 30vh;
 	margin-top: 50px;
 	border: 1px solid #e5e5e5;
 	box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.07);
@@ -29,7 +31,8 @@
 	border-radius: 5px;
 }
 .buttonsText {
-	font-family: Lato;
+	font-family: 'Open Sans', sans-serif;
+
 	font-style: normal;
 	font-weight: bold;
 	font-size: 17px;
@@ -44,7 +47,8 @@
 	border-radius: 5px;
 }
 .buttonsFocus:focus .buttonsTextFocus {
-	font-family: Lato;
+	font-family: 'Open Sans', sans-serif;
+
 	font-style: normal;
 	font-weight: bold;
 	font-size: 17px;
@@ -53,7 +57,8 @@
 	color: #ffffff;
 }
 .buttonsFocus:focus .buttonsTextFocusStep3 {
-	font-family: Lato;
+	font-family: 'Open Sans', sans-serif;
+
 	font-style: normal;
 	font-weight: bold;
 	font-size: 15px;
@@ -73,7 +78,8 @@
 }
 
 .step3buttonsText {
-	font-family: Lato;
+	font-family: 'Open Sans', sans-serif;
+
 	font-style: normal;
 	font-weight: normal;
 	font-size: 15px;
@@ -82,7 +88,8 @@
 	color: #000000;
 }
 .step3buttonsText16 {
-	font-family: Lato;
+	font-family: 'Open Sans', sans-serif;
+
 	font-style: normal;
 	font-weight: normal;
 	font-size: 15px;
@@ -91,7 +98,8 @@
 	color: #000000;
 }
 .step7buttonsText {
-	font-family: Lato;
+	font-family: 'Open Sans', sans-serif;
+
 	font-style: normal;
 	font-weight: normal;
 	font-size: 15px;
@@ -100,7 +108,8 @@
 	color: #000000;
 }
 .step2heading {
-	font-family: Lato;
+	font-family: 'Open Sans', sans-serif;
+
 	font-style: normal;
 	font-weight: bold;
 	font-size: 22px;
@@ -109,7 +118,8 @@
 	color: #488bff;
 }
 .step2Text {
-	font-family: Lato;
+	font-family: 'Open Sans', sans-serif;
+
 	font-style: normal;
 	font-weight: bold;
 	font-size: 26px;
@@ -120,7 +130,8 @@
 .step2MenuBtn {
 	background: #fcfcff;
 	border: 1px solid #e1dcdc;
-	font-family: Lato;
+	font-family: 'Open Sans', sans-serif;
+
 	font-style: normal;
 	font-weight: bold;
 	font-size: 17px;
@@ -133,7 +144,8 @@
 	border: 1px solid #488bff;
 	box-sizing: border-box;
 	border-radius: 5px;
-	font-family: Lato;
+	font-family: 'Open Sans', sans-serif;
+
 	font-style: normal;
 	font-weight: bold;
 	font-size: 17px;
@@ -146,7 +158,8 @@
 	border: 1px solid #488bff;
 	box-sizing: border-box;
 	border-radius: 5px;
-	font-family: Lato;
+	font-family: 'Open Sans', sans-serif;
+
 	font-style: normal;
 	font-weight: bold;
 	font-size: 15px;
@@ -172,7 +185,8 @@
 	border-radius: 15px;
 }
 .step5buttonsText {
-	font-family: Lato;
+	font-family: 'Open Sans', sans-serif;
+
 	font-style: normal;
 	font-weight: bold;
 	font-size: 14px;
@@ -181,7 +195,8 @@
 	color: #000000;
 }
 .step5buttonsTextDel {
-	font-family: Lato;
+	font-family: 'Open Sans', sans-serif;
+
 	font-style: normal;
 	font-weight: bold;
 	font-size: 20px;
@@ -198,7 +213,8 @@
 	box-sizing: border-box;
 }
 .step6text {
-	font-family: Lato;
+	font-family: 'Open Sans', sans-serif;
+
 	font-style: normal;
 	font-weight: bold;
 	font-size: 20px;
@@ -230,7 +246,8 @@
 	border-radius: 5px;
 }
 .step6BtnTextfocus {
-	font-family: Lato;
+	font-family: 'Open Sans', sans-serif;
+
 	font-style: normal;
 	font-weight: bold;
 	font-size: 20px;
@@ -239,7 +256,8 @@
 	color: white;
 }
 .step6BtnText {
-	font-family: Lato;
+	font-family: 'Open Sans', sans-serif;
+
 	font-style: normal;
 	font-weight: bold;
 	font-size: 20px;
@@ -248,7 +266,8 @@
 	color: #ededed;
 }
 .checkBoxText {
-	font-family: Lato;
+	font-family: 'Open Sans', sans-serif;
+
 	font-style: normal;
 	font-weight: bold;
 	font-size: 15px;
@@ -265,7 +284,8 @@
 	border-radius: 5px;
 }
 .step6DropdownDivText {
-	font-family: Lato;
+	font-family: 'Open Sans', sans-serif;
+
 	font-style: normal;
 	font-weight: bold;
 	font-size: 17px;
@@ -282,7 +302,8 @@
 	border-radius: 5px;
 }
 .inputBoxText {
-	font-family: Lato;
+	font-family: 'Open Sans', sans-serif;
+
 	font-style: normal;
 	font-weight: bold;
 	font-size: 20px;
@@ -291,7 +312,8 @@
 	color: #000000;
 }
 .step9text {
-	font-family: Lato;
+	font-family: 'Open Sans', sans-serif;
+
 	font-style: normal;
 	font-weight: bold;
 	font-size: 20px;
@@ -321,7 +343,8 @@
 	width: 300px;
 }
 .step9inputText {
-	font-family: Lato;
+	font-family: 'Open Sans', sans-serif;
+
 	font-style: normal;
 	font-weight: normal;
 	font-size: 20px;
@@ -330,7 +353,8 @@
 	color: #000000;
 }
 .step10Paragraph {
-	font-family: Lato;
+	font-family: 'Open Sans', sans-serif;
+
 	font-style: normal;
 	font-weight: normal;
 	font-size: 12px;
@@ -349,7 +373,8 @@
 
 	background: #488bff;
 	border-radius: 5px;
-	font-family: Lato;
+	font-family: 'Open Sans', sans-serif;
+
 	font-style: normal;
 	font-weight: bold;
 	font-size: 26px;
@@ -360,7 +385,8 @@
 step10AddressTextDiv {
 }
 .step11Text {
-	font-family: Lato;
+	font-family: 'Open Sans', sans-serif;
+
 	font-style: normal;
 	font-weight: bold;
 	font-size: 45px;

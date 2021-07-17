@@ -4,10 +4,14 @@ import React, { useContext } from 'react'
 import Step from "./step.jsx"
 import { QuoteContextApi } from "../../QuoteContext";
 import { useHistory } from "react-router-dom";
+import ReactInputDateMask from 'react-input-date-mask';
+
+
+
 
 
 function Step3() {
-
+ 
   const QuoteContext1 = useContext(QuoteContextApi);
 
 
@@ -17,6 +21,8 @@ function Step3() {
     QuoteContext1.handleStraperLength("67%");
     history.push("/Step4");
   }
+  
+
   return (
     <>
       <Step width={QuoteContext1.StraperWidth} />
@@ -26,7 +32,13 @@ function Step3() {
         </div>
         <div className='grid grid-cols-1 md:grid-cols-1 w-11/12 md:w-4/5 mx-auto justify-center items-center text-center gap-8 md:gap-8   '>
           <div className=' mt-1 px-2 '>
-            <input type="date" className=" inputg step9Div focus:outline-none px-16 step9inputText" id="date_input" name="fname" />
+            <input type="date" className=" inputg step9Div focus:outline-none px-16 step9inputText" id="date_input" name="fname" 
+            placeholder="MM/DD/YYYY"
+            maxLength={10}
+            style={{ width: "100%" }}
+            />
+
+            
           </div>
         </div>
         <br />

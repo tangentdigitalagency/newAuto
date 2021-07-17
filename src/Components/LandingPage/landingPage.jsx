@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext } from 'react'
 // import './body.css'
 import './landingPage.css'
 import Polygon from '../Images/LandingPage/polygon.png'
@@ -19,8 +19,24 @@ import WhyQuote from '../Images/whyQuote.png'
 import CheckCircle from '../Images/check-circle.png'
 import LandingPic from '../Images/LandingPage/landingPic.png'
 import LandingPageHeader from './landingPageHeader'
+import { QuoteContextApi } from '../../QuoteContext'
+import { useHistory } from 'react-router-dom'
+import Step from '../StepsComponent/step.jsx';
+import Step1 from '../StepsComponent/step1.jsx';
+
 
 function LandingPage() {
+
+  const QuoteContext1 = useContext(QuoteContextApi);
+
+
+  const history = useHistory();
+
+  function showStep1() {
+    QuoteContext1.handleStraperLength("5%");
+    history.push("/Step1");
+  }
+
   return (
     <div><LandingPageHeader />
       <div className=' container3 w-auto h-auto text-center'>
@@ -53,6 +69,7 @@ function LandingPage() {
               <button
                 type='button'
                 className='mobileBtn3 focus:outline-none ml-2'
+                onClick={() => showStep1()}
               >
                 <span className='mobileBtnFont3'>Start Your Quote</span>
               </button>
@@ -66,7 +83,7 @@ function LandingPage() {
               type='email'
             />
             <br />
-            <button type='button' className='mobileBtn focus:outline-none'>
+            <button type='button' className='mobileBtn focus:outline-none'  onClick={() => LandingPage()}>
               <span className='mobileBtnFont'>Start Your Quote</span>
             </button>
           </div>
@@ -297,138 +314,6 @@ function LandingPage() {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
               </div>
-            </div>
-          </div>
-        </div>
-
-        <div className='hidden md:block pt-36'>
-          <div className='flex flex-col items-center text-center w-4/5 bg-white mx-auto box-border rounded-2xl startQuote pt-16'>
-            <h1 className='quantPageHText'>Start Your Free Quote!</h1>
-            <div className='flex flex-wrap justify-center items-center md:max-w-xl mt-11'>
-              <div className='h-32 w-28 flex flex-wrap justify-center items-center'>
-                <button
-                  type='button'
-                  className='  Hover1 button4 bg-white focus:outline-none flex flex-col justify-center items-center'
-                >
-                  <Car fill='#B1B1B1' className='iconHW filling' />
-                  <span className='pt-2 btnFont textBtn'>Auto</span>
-                </button>
-              </div>
-              <div className='h-32 w-28 flex flex-wrap justify-center items-center'>
-                <button
-                  type='button'
-                  className=' Hover1 button4 bg-white focus:outline-none flex flex-col justify-center items-center'
-                >
-                  <Home fill='#B1B1B1' className='iconHW filling' />
-                  <span className='pt-2 btnFont textBtn'>Home</span>
-                </button>
-              </div>
-              <div className='h-32 w-28 flex flex-wrap justify-center items-center'>
-                <button
-                  type='button'
-                  className='Hover1 button4 bg-white focus:outline-none flex flex-col justify-center items-center'
-                >
-                  <Health fill='#B1B1B1' className='iconHW filling' />
-                  <span className='pt-2 btnFont textBtn'>Health</span>
-                </button>
-              </div>
-              <div className='h-32 w-28 flex flex-wrap justify-center items-center'>
-                <button
-                  type='button'
-                  className='Hover1 button4 bg-white focus:outline-none flex flex-col justify-center items-center'
-                >
-                  <Building fill='#B1B1B1' className='iconHW filling' />
-                  <span className='pt-2 btnFont textBtn'>Business</span>
-                </button>
-              </div>
-              <div className='h-32 w-28 flex flex-wrap justify-center items-center'>
-                <button
-                  type='button'
-                  className='Hover1 button4 bg-white focus:outline-none flex flex-col justify-center items-center'
-                >
-                  <Arrow fill='#488BFF' className='iconHW filling' />
-                  <span className='pt-2 btnFont textBtn'>View All</span>
-                </button>
-              </div>
-            </div>
-
-            <div className='mx-auto flex flex-row justify-center items-center'>
-              <input
-                className='bg-white placeholder1 focus:outline-none'
-                placeholder='Enter Your Full Address...'
-                type='email'
-              />
-              <br />
-              <button
-                type='button'
-                className='startQuoteBtn focus:outline-none'
-              >
-                <span className='startQuoteBtnText'>Start Your Free Quote</span>
-              </button>
-            </div>
-          </div>
-        </div>
-        {/* for mobile */}
-        <div className='block md:hidden mt-10'>
-          <div className='flex flex-col items-center text-center mx-auto startQuote'>
-            <h1 className='quantPageHText'>Start Your Free Quote!</h1>
-            <div className='flex flex-wrap justify-center items-center md:max-w-xl mt-9'>
-              <div className='h-32 w-28 flex flex-wrap justify-center items-center'>
-                <button
-                  type='button'
-                  className='  Hover1 button4 bg-white focus:outline-none flex flex-col justify-center items-center'
-                >
-                  <Car fill='#B1B1B1' className='iconHW filling' />
-                  <span className='pt-2 btnFont textBtn' >Auto</span>
-                </button>
-              </div>
-              <div className='h-32 w-28 flex flex-wrap justify-center items-center'>
-                <button
-                  type='button'
-                  className=' Hover1 button4 bg-white focus:outline-none flex flex-col justify-center items-center'
-                >
-                  <Home fill='#B1B1B1' className='iconHW filling' />
-                  <span className='pt-2 btnFont textBtn'>Home</span>
-                </button>
-              </div>
-              <div className='h-32 w-28 flex flex-wrap justify-center items-center'>
-                <button
-                  type='button'
-                  className='Hover1 button4 bg-white focus:outline-none flex flex-col justify-center items-center'
-                >
-                  <Health fill='#B1B1B1' className='iconHW filling' />
-                  <span className='pt-2 btnFont textBtn'>Health</span>
-                </button>
-              </div>
-              <div className='h-32 w-28 flex flex-wrap justify-center items-center'>
-                <button
-                  type='button'
-                  className='Hover1 button4 bg-white focus:outline-none flex flex-col justify-center items-center'
-                >
-                  <Building fill='#B1B1B1' className='iconHW filling' />
-                  <span className='pt-2 btnFont textBtn'>Business</span>
-                </button>
-              </div>
-              <div className='h-32 w-28 flex flex-wrap justify-center items-center'>
-                <button
-                  type='button'
-                  className='Hover1 button4 bg-white focus:outline-none flex flex-col justify-center items-center'
-                >
-                  <Arrow fill='#488BFF' className='iconHW filling' />
-                  <span className='pt-2 btnFont textBtn'>View All</span>
-                </button>
-              </div>
-            </div>
-            <div className='flex flex-col justify-center items-center'>
-              <input
-                className='bg-white pl-5 placeholder1 focus:outline-none'
-                placeholder='Enter Your Full Address...'
-                type='email'
-              />
-              <br />
-              <button type='button' className='mobileBtn focus:outline-none'>
-                <span className='mobileBtnFont'>Start Your Free Quote</span>
-              </button>
             </div>
           </div>
         </div>

@@ -33,13 +33,6 @@ function Step2() {
           <h2 className='mx-auto step2Text'> What's your gender?</h2>
         </div>
 
-
-        <div className="flex flex-row md:hidden justify-between items-center text-center mt-5 w-60 h-11 mx-auto">
-          <img src={CheckSquare} alt="checkBox" onClick={showStep3} className="cursor-pointer" />
-          <span className="pl-4 checkBoxText">are you also intresting in a home insurance quote?</span>
-
-        </div>
-
         <div className=" flex flex-col  justify-center items-center mt-8">
 
           <Menu as='div' className='relative  mx-auto mt-1 text-left'>
@@ -99,6 +92,22 @@ function Step2() {
                             )}
                           >
                             Female
+                          </button>
+                        )}
+                      </Menu.Item>
+
+                      <Menu.Item>
+                        {({ active }) => (
+                          <button
+                            onClick={showStep3}
+                            className={classNames(
+                              active
+                                ? 'step3dropdownBtn focus:outline-none text-center'
+                                : ' step3buttonsText',
+                              'block px-4 py-2 text-sm text-center w-full'
+                            )}
+                          >
+                            Non-Binary
                           </button>
                         )}
                       </Menu.Item>

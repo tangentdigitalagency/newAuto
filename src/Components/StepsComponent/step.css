@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,700&display=swap');
+
 .bgclr {
 	background-color: #488bff;
 }
@@ -8,7 +10,8 @@
 }
 
 .divFont {
-	font-family: Lato;
+	font-family: 'Open Sans', sans-serif;
+
 	font-style: normal;
 	font-size: 20px;
 	line-height: 24px;
@@ -18,7 +21,8 @@
 	background-color: #ffffff;
 }
 .divFontFocus {
-	font-family: Lato;
+	font-family: 'Open Sans', sans-serif;
+
 	font-style: normal;
 	font-weight: bold;
 	font-size: 22px;
@@ -43,14 +47,16 @@
 }
 @media (max-width: 768px) {
 	.divFont {
-		font-family: Lato;
+		font-family: 'Open Sans', sans-serif;
+
 		font-style: normal;
 		font-size: 15px;
 		line-height: 16px;
 		color: #ffffff;
 	}
 	.divFontFocus {
-		font-family: Lato;
+		font-family: 'Open Sans', sans-serif;
+
 		font-style: normal;
 		font-weight: bold;
 		font-size: 16px;

@@ -13,6 +13,8 @@ function Step(props) {
     setFlag(props.width);
   }, [])
 
+  
+
   return (
     <>
       <LandingPageHeader />

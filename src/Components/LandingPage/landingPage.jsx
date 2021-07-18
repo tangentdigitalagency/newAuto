@@ -15,9 +15,9 @@ import { ReactComponent as Survey } from '../Images/survey.svg'
 import { ReactComponent as Money } from '../Images/money.svg'
 import { ReactComponent as Insurance } from '../Images/insurance.svg'
 import { ReactComponent as Checkmark } from '../Images/checkmark.svg'
-import WhyQuote from '../Images/whyQuote.png'
+import WhyQuote from '../Images/olc_couple.jpg'
 import CheckCircle from '../Images/check-circle.png'
-import LandingPic from '../Images/LandingPage/landingPic.png'
+import LandingPic from '../Images/olc_couple.jpg'
 import LandingPageHeader from './landingPageHeader'
 import { QuoteContextApi } from '../../QuoteContext'
 import { useHistory } from 'react-router-dom'
@@ -39,13 +39,13 @@ function LandingPage() {
 
   return (
     <div><LandingPageHeader />
-      <div className=' container3 w-auto h-auto text-center'>
+      <div className=' container3 w-auto text-center'>
         <div className=' mx-auto text-center flex flex-row items-center justify-center'>
           <h1 className='lPHeading text-center pt-28'>
-            Finding Insurance Has Never been Easier
+          Burial Insurance At An Affordable Price 
           </h1>
         </div>
-        <img src={LandingPic} alt="pic" className="w-full absolute" />
+        {/* <img src={LandingPic} alt="pic" className="w-full absolute" /> */}
         <div className='landingBackImage w-full flex flex-col relative'>
           <div className='mx-auto text-center flex flex-row items-start justify-start'>
             <h2 className='lPText mt-5 px-8 md:px-0'>
@@ -107,7 +107,7 @@ function LandingPage() {
           </div>
         </div>
         <br />
-        <h1 className='text-black pg2text text-center '>How Does It Work?</h1>
+        <h3 className='subHeading pg2text text-center '>Eliminate Burdens For Loved Ones With Final Expense Insurance </h3>
         <br />
         <br />
         <div className='hidden md:block mt-16'>
@@ -122,8 +122,9 @@ function LandingPage() {
               <div className=' box-border rounded-2xl flex flex-col justify-center items-center text-center box1234 hoverbox1234'>
                 <Insurance fill='#B1B1B1' className='fillingbox1234' />
                 <span className='pt-6 box1234text hoverbox1234text'>
-                  Choose the Insurance <br />
-                  you want to save on
+                  <h3 className="subHeading">No Medical Exam </h3> 
+                  Simple Application <br></br>
+                  Free Quote—Apply in Minutes 
                 </span>
               </div>
             </div>
@@ -137,9 +138,10 @@ function LandingPage() {
               <div className=' box-border rounded-2xl flex flex-col justify-center items-center text-center box1234 hoverbox1234'>
                 <Survey fill='#B1B1B1' className='fillingbox1234' />
                 <span className='pt-6 box1234text hoverbox1234text'>
-                  Fill out our super simple <br />
-                  online form in just 2 <br />
-                  minutes!
+                  <h3 className="subHeading">No Waiting Period </h3>
+                  Full Coverage The First Day 
+<br/>
+Fast Approval Process 
                 </span>
               </div>
             </div>
@@ -153,9 +155,9 @@ function LandingPage() {
               <div className=' box-border rounded-2xl flex flex-col justify-center items-center text-center box1234 hoverbox1234'>
                 <Checkmark fill='#B1B1B1' className='fillingbox1234' />
                 <span className='pt-6 box1234text hoverbox1234text'>
-                  Get matched with our <br />
-                  partners who want to <br />
-                  help you save!
+                <h3 className="subHeading">50 State Coverage </h3>
+                  Our partners offer plans in all 50 states<br/> 
+                  we can cover you no matter where you are! 
                 </span>
               </div>
             </div>
@@ -169,9 +171,8 @@ function LandingPage() {
               <div className=' box-border rounded-2xl flex flex-col justify-center items-center text-center box1234 hoverbox1234'>
                 <Money fill='#B1B1B1' className='fillingbox1234' />
                 <span className='pt-6 box1234text hoverbox1234text'>
-                  Find the perfect match <br />
-                  for you and start saving <br />
-                  money!
+                  <h3 className="subHeading">Affordable Prices </h3>
+                  no matter your budget we can find the policy right for you and your family. 
                 </span>
               </div>
             </div>
@@ -251,35 +252,15 @@ function LandingPage() {
           <div className='flex flex-row justify-between w-4/5 mx-auto h-96'>
             <img src={WhyQuote} alt='why' className=' whyQuoteHW' />
             <div className='flex flex-col justify-start pl-20'>
-              <h1 className='quantPageHText'>Why Quotehound?</h1>
+              <h3 className='subHeading'>Why Prepare now?</h3>
               <p className='quantPagePText mt-10'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                auctor maecenas donec feugiat nisi, diam morbi. Ac vitae nisi,
-                magna egestas vitae non.
+              You can’t predict the future. So, it’s good to plan ahead. Our Final Expense insurance plans will help provide a foundation for your family after you’re gone. <br/> <br/>
+              Here at <b>Covermyexpense.com </b> we are committed to providing all the information needed so you are confident to make an informed decision regarding your burial insurance policy. We work with multiple providers to make sure that you receive the right final expense insurance quotes for your needs and budget. If you ever have any questions, please do not hesitate to contact us.  We’re here to help you and the whole family. 
               </p>
               <br />
-              <div className='flex flex-row'>
-                <img src={CheckCircle} alt='CheckCircle' />
-                <p className='quantPagePText ml-4'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-              </div>
-              <br />
-              <div className='flex flex-row'>
-                <img src={CheckCircle} alt='CheckCircle' />
-                <p className='quantPagePText ml-4'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-              </div>
-              <br />
-              <div className='flex flex-row'>
-                <img src={CheckCircle} alt='CheckCircle' />
-                <p className='quantPagePText ml-4'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-              </div>
             </div>
           </div>
+          
         </div>
 
         {/* for mobile */}
@@ -287,47 +268,27 @@ function LandingPage() {
           <div className='flex flex-col justify-center items-center w-4/5 mx-auto '>
             <img src={WhyQuote} alt='why' className=' whyQuoteHW' />
             <div className='flex flex-col justify-between items-center w-full mt-7'>
-              <h1 className='quantPageHText text-center'>Why Quotehound?</h1>
-              <p className='quantPagePText mt-5'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                auctor maecenas donec feugiat nisi, diam morbi. Ac vitae nisi,
-                magna egestas vitae non.
+            <h3 className='subHeading'>Why Prepare now?</h3>
+            <p className='quantPagePText mt-10'>
+              You can’t predict the future. So, it’s good to plan ahead. Our Final Expense insurance plans will help provide a foundation for your family after you’re gone. <br/> <br/>
+              Here at <b>Covermyexpense.com </b> we are committed to providing all the information needed so you are confident to make an informed decision regarding your burial insurance policy. We work with multiple providers to make sure that you receive the right final expense insurance quotes for your needs and budget. If you ever have any questions, please do not hesitate to contact us.  We’re here to help you and the whole family. 
               </p>
-
-              <div className='flex flex-row items-center mt-3'>
-                <img src={CheckCircle} alt='CheckCircle' className='h-6 w-6' />
-                <p className='quantPagePText2 ml-2'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-              </div>
-
-              <div className='flex flex-row items-center mt-3'>
-                <img src={CheckCircle} alt='CheckCircle' className='h-6 w-6' />
-                <p className='quantPagePText2 ml-2 '>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-              </div>
-
-              <div className='flex flex-row items-center mt-3'>
-                <img src={CheckCircle} alt='CheckCircle' className='h-6 w-6' />
-                <p className='quantPagePText2 ml-2'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-              </div>
             </div>
           </div>
         </div>
-
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+        <br/>
       </div>
+
+      <div className=' para flex flex-row'>
+              <p className='quantPagePText'>
+              You’ll want to give strong consideration to the funding aspect of your burial arrangements. You will want to ask yourself if your current funding (insurance, savings, etc.) will be sufficient and available when that time comes? Will your present insurance be needed to settle other expenses that could include medical bills, estate taxes, etc.? Will your present insurance or savings keep pace with funeral inflation costs? If you answered no to any of these questions, then you might wish to think about additional insurance that is designed specifically for your final expenses. Burial insurance policies can be made in small amounts to help with your existing insurance or larger amounts to cover all burial and funeral costs. 
+              </p>
+            </div>
+            <br/>
+
+            <footer className="bg-gray-200">
+    <p className="p-2 text-center text-xs">Copyright © 2021 Covermyexpense.com. Powered by Quotehound.</p>
+  </footer>
     </div>
   )
 }

@@ -1,10 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,700&display=swap');
 
 .container3 {
-	background: #e4f3fa;
+	background-image: url('../Images/close_hands.jpg');
+	background-color:rgba(0, 0, 0, 0.8);
+	background-size: cover;
+	background-repeat: no-repeat;
+  background-position: bottom;
+  height: 60vh;
+	
 }
-.landingBackImage {
-	padding-bottom: 34%;
+
+.subHeading {
+	font-weight: 700;
+}
+
+.box-border {
+	width: 300px;
+}
+
+.para {
+	width: 80%;
+	max-width: 1440px;
+	margin: 0 auto;
 }
 
 /* .grid{
@@ -19,7 +36,7 @@
 	font-size: 45px;
 	line-height: 54px;
 
-	color: #000000;
+	color: rgb(255, 255, 255);
 }
 .lPText {
 	font-family: 'Open Sans', sans-serif;
@@ -28,7 +45,7 @@
 	font-size: 30px;
 	line-height: 36px;
 
-	color: #000000;
+	color: rgb(255, 255, 255);
 }
 .placeHolder2 {
 	width: 396px;
